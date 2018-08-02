@@ -13,6 +13,7 @@ RUN /usr/bin/apt-get update && \
         ca-certificates \
         curl \
         dnsutils \
+        gnupg \
         iputils-ping \
         jq \
         libgflags2 \
