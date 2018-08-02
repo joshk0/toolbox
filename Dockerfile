@@ -12,9 +12,7 @@ RUN /usr/bin/apt-get update && \
         gnupg \
         iputils-ping \
         jq \
-        libgflags2 \
         libpython2.7-stdlib \
-        libsnappy1 \
         libyaml-0-2 \
         locales \
         make \
