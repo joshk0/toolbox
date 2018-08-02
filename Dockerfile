@@ -1,9 +1,5 @@
 FROM ubuntu:18.04
 
-# Get the latest version of postgresql-client
-RUN echo deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main >> /etc/apt/sources.list.d/pgdg.list
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv ACCC4CF8
-
 # apt downloadable tools
 RUN /usr/bin/apt-get update && \
     /usr/bin/apt-get -y install \
